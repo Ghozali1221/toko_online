@@ -6,8 +6,10 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <!-- cdnjs.com -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- file css -->
+ <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
- <title>Belanjamudah.com | {{ $title }} </title>
+ <title>Muslimahstore.com | {{ $title }} </title>
 
  <!-- bootstrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -24,39 +26,44 @@
 
  <main>
   <header>
+   @include('pelanggan.component.navbar')
+  </header>
 
-   <!-- start navbar -->
-   <nav class="navbar navbar-expand-lg" style="background-color: #B6FFFA;">
-    <div class="container-fluid">
-     <a class="navbar-brand" href="#">PT.SAMUDERA GROUP TEKNOLOGI INDONESIA</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
-      <ul class="navbar-nav gap-4">
-       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <section>
+   ini konten
+  </section>
+
+  <footer>
+   <div class="container">
+    <div class="d-flex">
+     <div class="title-left">
+      <div class="header-title">
+       Muslimahstore.com
+      </div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque deleniti, unde assumenda eius voluptatum quo odio, totam officia quos porro accusamus maiores fuga iusto quam?</p>
+     </div>
+     <div class="title-middle">
+      <div class="header-title">
+       Tentang Kami
+      </div>
+      <ul>
+       <li>
+        <address>
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus fugit saepe suscipit voluptate ducimus eius?
+        </address>
        </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Contact us</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+       <li>
+        phone number - 0821-2658-8895
        </li>
       </ul>
-      <div class="d-flex gap-4 align-items-center">
-       <button class="btn btn-success" type="button"> Login | Register </button>
-       <i class="fa-solid fa-cart-shopping"></i>
-      </div>
+     </div>
+     <div class="sosmed">
+      <i class="fa fa-instagram"></i>
      </div>
     </div>
-   </nav>
-   <!-- end navbar -->
+   </div>
+  </footer>
 
-  </header>
  </main>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

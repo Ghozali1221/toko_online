@@ -1,0 +1,24 @@
+.icon-nav {
+ color: gainsboro;
+}
+
+.icon-nav:hover {
+ color: gold;
+}
+
+.notifikasi {
+ position: relative;
+}
+
+.circle {
+ position: fixed;
+ inline-size: 15px;
+ block-size: 15px;
+ border-radius: 50%;
+ background-color: whitesmoke;
+ color: rgba(255, 0, 0, 0.966);
+ text-align: center;
+ font-size: 10px;
+ inset-block-start: 7px;
+ inset-inline-end: 127px;
+}
