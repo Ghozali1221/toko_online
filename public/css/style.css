@@ -1,3 +1,10 @@
+*{
+ font-family: 'Times New Roman', Times, serif;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
 .icon-nav {
  color: gainsboro;
 }
@@ -11,14 +18,30 @@
 }
 
 .circle {
- position: fixed;
+ position: absolute;
  inline-size: 15px;
  block-size: 15px;
+ inset-block-start: -9px;
+ inset-inline-end: -5px;
  border-radius: 50%;
  background-color: whitesmoke;
  color: rgba(255, 0, 0, 0.966);
  text-align: center;
  font-size: 10px;
- inset-block-start: 7px;
- inset-inline-end: 127px;
 }
+
+section {
+ min-block-size: 67vh;
+}
+
+/* style footer */
+footer {
+ background-color: #addacc;
+ color: black;
+}
+
+.d-flex {
+ position: static;
+ inset-block-end: 0;
+}
+

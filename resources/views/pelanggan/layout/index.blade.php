@@ -17,7 +17,7 @@
  <!-- font-awesome -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 </head>
 </head>
@@ -30,37 +30,15 @@
   </header>
 
   <section>
-   ini konten
+   <div class="container">
+    <!-- nama yield ini harus sama dengan nama section yang ada di file homepage/shop/transaction dll -->
+    @yield('content')
+   </div>
   </section>
 
   <footer>
    <div class="container">
-    <div class="d-flex">
-     <div class="title-left">
-      <div class="header-title">
-       Muslimahstore.com
-      </div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque deleniti, unde assumenda eius voluptatum quo odio, totam officia quos porro accusamus maiores fuga iusto quam?</p>
-     </div>
-     <div class="title-middle">
-      <div class="header-title">
-       Tentang Kami
-      </div>
-      <ul>
-       <li>
-        <address>
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus fugit saepe suscipit voluptate ducimus eius?
-        </address>
-       </li>
-       <li>
-        phone number - 0821-2658-8895
-       </li>
-      </ul>
-     </div>
-     <div class="sosmed">
-      <i class="fa fa-instagram"></i>
-     </div>
-    </div>
+    @include('pelanggan.component.footer')
    </div>
   </footer>
 

@@ -12,6 +12,6 @@ class Controller extends BaseController
 
  public function index()
  {
-  return view('pelanggan.layout.index', ['title' => 'Homepage']);
+  return view('pelanggan.page.homepage', ['title' => 'Homepage']);
  }
 }
