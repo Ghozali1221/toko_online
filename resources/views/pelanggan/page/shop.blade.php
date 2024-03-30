@@ -3,5 +3,5 @@
 
 <!-- ini isi konten yang akan di buat / di tampilkan ke user -->
 @section('content')
-INI SHOP
+PAGE SHOP
 @endsection
