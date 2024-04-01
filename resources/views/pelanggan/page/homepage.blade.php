@@ -2,11 +2,12 @@
 @extends('pelanggan.layout.index')
 
 <!-- ini isi konten yang akan di buat / di tampilkan ke user -->
+<!-- start section content -->
 @section('content')
 
 <h4 class="mt-3">BEST SELLER</h4>
 
-<div class="konten mt-2 d-flex flex-lg-wrap gap-4">
+<div class="konten mt-3 d-flex flex-lg-wrap gap-4">
  <div class="card" style="inline-size: 230px;">
   <div class="card-header m-auto" style="border-radius: 5px;">
    <img src="{{asset('assets/images/baju.png')}}" alt="baju A" style="inline-size: 100%;">
@@ -71,9 +72,9 @@
   </div>
  </div>
 
- <h4 class="mt-5">NEW PRODUCT</h4>
+ <h4 class="mt-1">NEW PRODUCT</h4>
 
- <div class="konten mt-1 d-flex flex-lg-wrap gap-4 mb-5">
+ <div class="konten mt-1 d-flex flex-lg-wrap gap-4 mb-4">
   <div class="card" style="inline-size: 230px;">
    <div class="card-header m-auto" style="border-radius: 5px;">
     <img src="{{asset('assets/images/baju.png')}}" alt="baju A" style="inline-size: 100%;">
@@ -139,5 +140,5 @@
   </div>
 
  </div>
-
  @endsection
+ <!-- end section content -->
