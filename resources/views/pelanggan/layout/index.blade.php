@@ -31,7 +31,7 @@
 
   <section>
    <div class="container">
-    <!-- nama yield ini harus sama dengan nama section yang ada di file homepage/shop/transaction dll -->
+    <!-- nama/value yield ini harus sama dengan nama section yang ada di file homepage/shop/transaction dll -->
     @yield('content')
    </div>
   </section>
