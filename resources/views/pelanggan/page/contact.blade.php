@@ -26,10 +26,37 @@
  </div>
 </div>
 
-<h5 class="text-center">Silahkan Hubungi Kami</h5>
+<h5 class="text-center"><b> Please Contact us </b></h5>
+<hr class="mb-4">
 <div class="row mb-md-4">
  <div class="col-md-5">
-  <div class="bg-secondary" style="inline-size: 100px;"></div>
+  <div class="bg-secondary" style="inline-size: 100%; block-size: 50vh; border-radius: 15px;"></div>
  </div>
+
+ <div class="col-md-7">
+  <div class="card">
+   <div class="card-header">
+    <h5 class="text-center"><b> Criticism and Suggestions </b></h5>
+   </div>
+   <div class="card-body">
+    <div class="mb-3 row">
+     <label for="email" class="col-sm-2 col-form-label">Email </label>
+     <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="email" value="admin@info.com">
+     </div>
+    </div>
+    <div class="mb-3 row">
+     <label for="pesan" class="col-sm-2 col-form-label">Message </label>
+     <div class="col-sm-10">
+      <input type="text" class="form-control" id="pesan">
+     </div>
+    </div>
+    <div class="col-auto">
+     <button type="submit" class="btn btn-primary mb-3">Send Message</button>
+    </div>
+   </div>
+  </div>
+ </div>
+
 </div>
 @endsection
