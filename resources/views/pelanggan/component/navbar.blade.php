@@ -21,7 +21,10 @@
     </li>
    </ul>
    <div class="d-flex gap-4 align-items-center">
-    <button class="btn btn-success" type="button"> Login | Register </button>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
+     Login | Register
+    </button>
+
     <div class="notifikasi">
      <a href="/transaction" class="fs-5">
       <i class="fa-solid  icon-nav fa-cart-shopping"></i>
