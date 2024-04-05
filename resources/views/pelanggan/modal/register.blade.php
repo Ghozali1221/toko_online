@@ -43,9 +43,11 @@
       <input type="password" class="form-control" id="password" placeholder="password" required>
      </div>
     </div>
-   </div>
-   <div class="modal-footer">
-    <button type="button" class="btn btn-primary">Register</button>
+
+    <div class="modal-footer">
+     <button type="button" class="btn btn-primary">Register</button>
+     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
    </div>
   </div>
  </div>
