@@ -9,7 +9,7 @@
  <!-- file css -->
  <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
- <title>Muslimahstore.com | {{ $title }} </title>
+ <title>Muslimahstore.com | {{ $title }}</title>
 
  <!-- bootstrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -20,19 +20,21 @@
  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 </head>
-</head>
 
 <body>
 
  <main>
   <header>
+   <!-- menampilkan list menu header yang kita miliki , yang di tampilkan dengan navbar-->
    @include('pelanggan.component.navbar')
   </header>
 
   <section>
    <div class="container">
+
     <!-- nama/value yield ini harus sama dengan nama section yang ada di file homepage/shop/transaction dll -->
     @yield('content')
+    <!-- ini berisi data halaman contact yang akan di tampilkan ke user -->
    </div>
   </section>
 
