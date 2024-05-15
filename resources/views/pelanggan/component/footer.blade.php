@@ -1,4 +1,4 @@
- <div class="d-flex gap-4 pt-4">
+ <div class="d-flex gap-4 pt-4 mt-lg-4">
   <div class="title-left w-50">
    <div class="header-title fs-3">
     Muslimahstore.com
