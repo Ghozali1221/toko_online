@@ -23,3 +23,4 @@ Route::get('/shop', [ShopController::class, 'index'])->name('shop');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/transaction', [TransactionController::class, 'index'])->name('transaction');
+Route::get('/checkout', [TransactionController::class, 'checkout'])->name('checkout');

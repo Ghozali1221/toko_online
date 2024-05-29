@@ -17,7 +17,7 @@
   <img src="{{asset('assets/images/baju.jpeg')}}" alt="">
   <div class="description w-100">
    <p class="mt-2 mb-0" style="font-size: 25px;"><b>Polo Cotton</b></p>
-   <input type="number" class="form-control border-0 fs-1" id="harga" value="550000">
+   <input type="number" class="form-control border-0 fs-1" id="harga" value="550000" disabled>
    <div class="row">
     <label for="quantity" class="col-sm-2 col-form-label fs-5">Quantity</label>
     <div class="col-sm-5 d-flex">
@@ -28,13 +28,13 @@
    </div>
    <div class="row">
     <label for="total" class="col-sm-2 fs-5"> Amount </label>
-    <input type="text" class="col-sm-5 form-control w-25 mt-2 text-center" readonly id="total">
+    <input type="text" class="col-sm-5 form-control w-25 mt-2 text-center" readonly id="total" name="amount">
    </div>
 
    <div class="row w-50 my-3 gap-2">
-    <button class="btn btn-primary col-lg-4">
+    <a href="/checkout" class="btn btn-primary col-lg-4">
      <i class="fa-brands fa-shopify"></i> Checkout
-    </button>
+    </a>
     <button class="btn btn-danger col-lg-4">
      <i class="fa-solid fa-trash"></i> Delete
     </button>

@@ -10,4 +10,9 @@ class TransactionController extends Controller
  {
   return view('pelanggan.page.transaction', ['title' => 'Transaction']);
  }
+
+ public function checkout()
+ {
+  return view('pelanggan.page.CheckOut', ['title' => 'Checkout']);
+ }
 }
