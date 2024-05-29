@@ -1,5 +1,5 @@
-*{
- font-family: 'Times New Roman', Times, serif;
+* {
+ font-family: "Times New Roman", Times, serif;
  padding: 0;
  margin: 0;
  box-sizing: border-box;
@@ -45,3 +45,25 @@ footer {
  inset-block-end: 0;
 }
 
+/* Design class sidebar admin */
+.sidebar {
+ position: fixed;
+ inline-size: 230px;
+ background-color: rgb(228, 252, 13);
+ block-size: 100vh;
+}
+
+.sidebar a {
+ text-decoration: none;
+}
+
+.sidebar li {
+ list-style: none;
+}
+
+.sidebar h6{
+ font-size: 24px;
+ font-weight: 900;
+ text-align: center;
+ margin-block-start: 4px;
+}
