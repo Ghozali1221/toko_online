@@ -29,25 +29,62 @@
 
  <main>
 
-  <aside class="sidebar">
+  <aside class="sidebar navbar navbar-expand-lg d-flex flex-column gap-2">
    <h6>MuslimahStore.com</h6>
-   <ul>
-    <li>
-     <a href="#"><i class="fa-solid fa-house-chimney-user"></i> Dashboard</a>
-    </li>
-    <li>
-     <a href="#"><i class="fa-brands fa-product-hunt"></i> Product</a>
-    </li>
-    <li>
-     <a href="#"><i class="fa-solid fa-list-check"></i> User Management</a>
-    </li>
-    <li>
-     <a href="#"><i class="fa-brands fa-wpforms"></i> Report</a>
-    </li>
-    <li>
-     <a href="#"><i class="fa-brands fa-pied-piper-alt"></i> Logout</a>
-    </li>
-   </ul>
+   <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+    <ul class="navbar-nav d-flex flex-column gap-2">
+     <li class="nav-item">
+      <a class="nav-link active" href="#">
+       <div class="d-flex gap-1">
+        <span class="material-symbols-outlined">
+         settings_accessibility
+        </span>
+        <p class="m-0 p-0">User Management</p>
+       </div>
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link active" href="#">
+       <div class="d-flex gap-1">
+        <span class="material-symbols-outlined">
+         line_style
+        </span>
+        <p class="m-0 p-0">Dashboard</p>
+       </div>
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link active" href="#">
+       <div class="d-flex gap-1">
+        <span class="material-symbols-outlined">
+         qr_code_2_add
+        </span>
+        <p class="m-0 p-0">Product</p>
+       </div>
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link active" href="#">
+       <div class="d-flex gap-1">
+        <span class="material-symbols-outlined">
+         summarize
+        </span>
+        <p class="m-0 p-0">Report</p>
+       </div>
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link active" href="#">
+       <div class="d-flex gap-1">
+        <span class="material-symbols-outlined">
+         logout
+        </span>
+        <p class="m-0 p-0">Logout</p>
+       </div>
+      </a>
+     </li>
+    </ul>
+   </div>
 
   </aside>
 

@@ -49,12 +49,15 @@ footer {
 .sidebar {
  position: fixed;
  inline-size: 230px;
- background-color: rgb(228, 252, 13);
+ background-color: rgb(204, 187, 161);
  block-size: 100vh;
 }
 
 .sidebar a {
  text-decoration: none;
+}
+.sidebar a:hover {
+ background-color: rgb(238, 125, 60);
 }
 
 .sidebar li {
