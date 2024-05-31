@@ -8,6 +8,9 @@ class AdminController extends Controller
 {
  public function admin()
  {
-  return view('admin.layout.index', ['title' => 'Dashboard ||| Admin']);
+  return view('admin.layout.index', [
+   'name' => '. . : Dashboard : . . ',
+   'title' => 'Admin'
+  ]);
  }
 }

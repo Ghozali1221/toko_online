@@ -13,7 +13,7 @@
  <!-- sumber https://developers.google.com/fonts/docs/material_symbols -->
  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
- <title>Muslimahstore.com | {{ $title }}</title>
+ <title>Muslimahstore.com || {{ $title }}</title>
 
  <!-- bootstrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -28,66 +28,90 @@
 <body>
 
  <main>
-
-  <aside class="sidebar navbar navbar-expand-lg d-flex flex-column gap-2">
-   <h6>MuslimahStore.com</h6>
-   <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
-    <ul class="navbar-nav d-flex flex-column gap-2">
-     <li class="nav-item">
-      <a class="nav-link active" href="#">
-       <div class="d-flex gap-1">
-        <span class="material-symbols-outlined">
-         settings_accessibility
-        </span>
-        <p class="m-0 p-0">User Management</p>
-       </div>
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link active" href="#">
-       <div class="d-flex gap-1">
-        <span class="material-symbols-outlined">
-         line_style
-        </span>
-        <p class="m-0 p-0">Dashboard</p>
-       </div>
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link active" href="#">
-       <div class="d-flex gap-1">
-        <span class="material-symbols-outlined">
-         qr_code_2_add
-        </span>
-        <p class="m-0 p-0">Product</p>
-       </div>
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link active" href="#">
-       <div class="d-flex gap-1">
-        <span class="material-symbols-outlined">
-         summarize
-        </span>
-        <p class="m-0 p-0">Report</p>
-       </div>
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link active" href="#">
-       <div class="d-flex gap-1">
-        <span class="material-symbols-outlined">
-         logout
-        </span>
-        <p class="m-0 p-0">Logout</p>
-       </div>
-      </a>
-     </li>
-    </ul>
+  <div class="row">
+   <div class="col-md-3">
+    <aside class="sidebar navbar navbar-expand-lg d-flex flex-column gap-2">
+     <h6 class="navbar-brand">MuslimahStore.com</h6>
+     <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+      <ul class="navbar-nav d-flex flex-column gap-2">
+       <li class="nav-item">
+        <a class="nav-link active" href="#">
+         <div class="d-flex gap-1">
+          <span class="material-symbols-outlined">
+           settings_accessibility
+          </span>
+          <p class="m-0 p-0">User Management</p>
+         </div>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="#">
+         <div class="d-flex gap-1">
+          <span class="material-symbols-outlined">
+           line_style
+          </span>
+          <p class="m-0 p-0">Dashboard</p>
+         </div>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="#">
+         <div class="d-flex gap-1">
+          <span class="material-symbols-outlined">
+           qr_code_2_add
+          </span>
+          <p class="m-0 p-0">Product</p>
+         </div>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="#">
+         <div class="d-flex gap-1">
+          <span class="material-symbols-outlined">
+           summarize
+          </span>
+          <p class="m-0 p-0">Report</p>
+         </div>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="#">
+         <div class="d-flex gap-1">
+          <span class="material-symbols-outlined">
+           logout
+          </span>
+          <p class="m-0 p-0">Logout</p>
+         </div>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </aside>
    </div>
 
-  </aside>
+   <div class="col-md-9 mx-2 my-2">
+    <nav class="mb-3 d-flex justify-content-lg-between">
+     <div class="d-flex flex-column">
+      <ol class="breadcrumb mb-1">
+       <li class="breadcrumb-item active"><a href="#">{{ $name }}</a></li>
+       <!-- <li class="breadcrumb-item active" aria-current="page">Library</li> -->
+      </ol>
+      <!-- <span>{{ $name }}</span> -->
+     </div>
+     <div class="d-flex align-items-center">
+      <div class="icon-notification">
+       <span class="material-symbols-outlined">
+        notifications
+       </span>
+      </div>
+      <img src="{{asset('assets/images/default.png')}}" style=" inline-size: 50px;" alt="">
+     </div>
+    </nav>
+    <section>
+    </section>
+   </div>
 
+  </div>
  </main>
 
 

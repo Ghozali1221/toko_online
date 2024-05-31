@@ -3,10 +3,12 @@
  padding: 0;
  margin: 0;
  box-sizing: border-box;
+ /* overflow: hidden; */
 }
 
 .icon-nav {
  color: gainsboro;
+ position: relative;
 }
 
 .icon-nav:hover {
@@ -48,25 +50,33 @@ footer {
 /* Design class sidebar admin */
 .sidebar {
  position: fixed;
- inline-size: 230px;
+ inline-size: 250px;
  background-color: rgb(204, 187, 161);
  block-size: 100vh;
 }
 
 .sidebar a {
  text-decoration: none;
+ font-size: large;
 }
-.sidebar a:hover {
- background-color: rgb(238, 125, 60);
+
+.sidebar a {
+ text-decoration: none;
+ color: #addacc;
 }
 
 .sidebar li {
  list-style: none;
 }
+.sidebar li:hover {
+ list-style: none;
+ background-color: rgb(238, 125, 60);
+ border-radius: 10px;
+ margin: 0;
+}
 
-.sidebar h6{
+.sidebar h6 {
  font-size: 24px;
  font-weight: 900;
  text-align: center;
- margin-block-start: 4px;
 }
